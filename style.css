@@ -7,7 +7,7 @@ body{
                          'section section section section section'
                          'aside aside aside aside aside'
                          'footer footer footer footer footer';
-    grid-template-rows: 90vh 40vh 50vh 50vh 20vh;
+    grid-template-rows: 90vh 40vh 50vh 55vh 20vh;
     margin-top: 15px;
 }
 
@@ -44,11 +44,14 @@ nav div{
 
 .sistemas img{
     cursor:pointer; 
+    padding: 10px;   
     border-radius: 100%;
+    transition: 2s;
 }
 
 .sistemas img:hover{
-    color:green;
+    color:rgb(44, 205, 112);
+    transition: 2s;
 }
 
 nav p{
@@ -68,6 +71,7 @@ nav p{
     justify-content: center;
     align-items: flex-start;
 }
+
 
 header{
     grid-area: header;
@@ -144,6 +148,7 @@ section div{
 
 .caixa button{
     background-color: rgb(44, 205, 112);
+    border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 100px;
@@ -152,6 +157,7 @@ section div{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    box-shadow: none;
 }
 
 .caixa p{
@@ -223,6 +229,7 @@ aside div{
 }
 .social-media img:hover{
     color: rgb(44, 205, 112);
+    transition: 2s;
 }
 
 footer{

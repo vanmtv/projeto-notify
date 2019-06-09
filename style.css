@@ -7,7 +7,7 @@ body{
                          'section section section section section'
                          'aside aside aside aside aside'
                          'footer footer footer footer footer';
-    grid-template-rows: 90vh 40vh 50vh 50vh 30vh;
+    grid-template-rows: 90vh 40vh 50vh 50vh 20vh;
     margin-top: 15px;
 }
 
@@ -146,6 +146,7 @@ section div{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .caixa p{
@@ -166,11 +167,73 @@ section div{
 }
 
 aside{
+    font-family: 'Roboto', sans-serif;
     grid-area: aside;
-    background-color: purple;
+    background-color: white;
+}
+
+#italic{
+    color: gray;
+    font-style: italic;
+}
+
+#say-hi{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: bold;
+}
+
+#text{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color:gray;
+    font-size:10pt;
+}
+
+.pessoa{
+    background-image: url(img/pessoa1.jpg);
+    width: 1200px;
+    height: 50px;
+    background-repeat: repeat-x repeat-x;
+}
+
+aside div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.social-media img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.social-media img:hover{
+    background-color: green;
 }
 
 footer{
+    font-family: 'Roboto', sans-serif;
     grid-area: footer;
-    background-color: brown;
+    background-color:rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div p{
+    color: gray;
 }

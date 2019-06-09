@@ -7,7 +7,7 @@ body{
                          'section section section section section'
                          'aside aside aside aside aside'
                          'footer footer footer footer footer';
-    grid-template-rows: 90vh 50vh 50vh 50vh 30vh;
+    grid-template-rows: 90vh 40vh 50vh 50vh 30vh;
     margin-top: 15px;
 }
 
@@ -95,6 +95,7 @@ header div img{
 
 .texto{
     color: gray;
+    font-size: 10pt;
 }
 
 
@@ -104,6 +105,55 @@ section{
     display: flex;
     justify-content: space-around;
 }
+
+section div{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s-title{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: bold;
+}
+
+
+.s-text{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: gray;
+    font-size: 10pt;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: row;  
+}
+
+.caixa input{
+    border: solid 10px;
+    border-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.caixa button{
+    background-color: rgb(44, 205, 112);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa p{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
 
 .video{
     display: flex;

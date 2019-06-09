@@ -43,9 +43,14 @@ nav div{
 }
 
 .sistemas img{
+    cursor:pointer; 
     border-radius: 100%;
-
 }
+
+.sistemas img:hover{
+    color:green;
+}
+
 nav p{
     font-family: 'Roboto', sans-serif;
 }
@@ -158,7 +163,8 @@ section div{
 
 .video{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .video img{
@@ -206,15 +212,17 @@ aside div{
     display: flex;
     flex-direction: row;
     align-items: center;    
+    padding: 5px;
 }
 
 .social-media img{
     width: 35px;
     height: 35px;
     border-radius: 100%;
+    padding: 5px;
 }
 .social-media img:hover{
-    background-color: green;
+    color: rgb(44, 205, 112);
 }
 
 footer{
@@ -235,5 +243,10 @@ footer div{
 }
 
 footer div p{
+    cursor: pointer;
     color: gray;
+}
+
+footer div p:hover{
+    color: white;
 }
